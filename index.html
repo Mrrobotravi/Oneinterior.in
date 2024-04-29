@@ -886,6 +886,22 @@
 			--wpforms-button-size-margin-top: 10px;
 
 		}
+
+		::-webkit-scrollbar {
+			width: 5px;
+		}
+
+		::-webkit-scrollbar-track {
+			background-color: #ebebeb;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+		}
+
+		::-webkit-scrollbar-thumb {
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+			background: #073842;
+		}
 	</style>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
 </head>
@@ -1024,7 +1040,7 @@
 
 							<div class="site-branding-center">
 								<h1 class="site-title">
-									<a href="./index.html" rel="home">
+									<a href="/" rel="home">
 										<span class="screen-reader-text">
 											ONE INTERIOR </span>
 										<span class="site-title-text">
@@ -1049,27 +1065,32 @@
 									<ul id="menu-renovatio-menu" class="">
 										<li id="menu-item-8583"
 											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-8583">
-											<a href="./index.html">Home</a></li>
+											<a href="/">Home</a>
+										</li>
 										<li id="menu-item-8584"
 											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8584">
-											<a href="./about.html">About Us</a></li>
+											<a href="./about.html">About Us</a>
+										</li>
 										<li id="menu-item-8586"
 											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8586">
-											<a href="./services.html">Services</a></li>
+											<a href="./services.html">Services</a>
+										</li>
 										<li id="menu-item-8587"
 											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8587">
-											<a href="./project.html">Projects</a></li>
+											<a href="./project.html">Projects</a>
+										</li>
 										<!-- <li id="menu-item-8588"
 											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8588">
 											<a href="./news.html">News</a></li> -->
 										<li id="menu-item-8585"
 											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8585">
-											<a href="./contact.html">Contact</a></li>
-										</ul>
-									</div>
-										<!-- <a class="search-toggle toggle-link"></a>  -->
+											<a href="./contact.html">Contact</a>
+										</li>
+									</ul>
+								</div>
+								<!-- <a class="search-toggle toggle-link"></a>  -->
 
-										<!-- <div class="search-container">
+								<!-- <div class="search-container">
 											<div class="search-box">
 												<form class="search-form" method="get"
 													action="https://themes.pixelwars.org/renovatio/demo-01/">
@@ -1083,8 +1104,8 @@
 												</form> 
 											</div> 
 										</div>  -->
-								</div> <!-- .layout-medium -->
-							</div> <!-- .menu-wrap -->
+							</div> <!-- .layout-medium -->
+						</div> <!-- .menu-wrap -->
 					</nav> <!-- #site-navigation .main-navigation .site-navigation -->
 				</div> <!-- .header-wrap-inner -->
 			</div> <!-- .header-wrap -->
@@ -1257,7 +1278,8 @@
 																	<div data-reveal="reveal-active"
 																		class="bdt-slider-excerpt"
 																		data-bdt-slideshow-parallax="y: 50,0,-10; opacity: 1,1,0">
-																		<p>Creating spaces that reflect personal style, foster comfort, and promote well-being.
+																		<p>Creating spaces that reflect personal style,
+																			foster comfort, and promote well-being.
 																		</p>
 																	</div>
 
@@ -1395,7 +1417,8 @@
 
 
 
-												<a class="bdt-social-animate" href="https://www.facebook.com/profile.php?id=100086153410714&mibextid=ZbWKwL"
+												<a class="bdt-social-animate"
+													href="https://www.facebook.com/profile.php?id=100086153410714&mibextid=ZbWKwL"
 													target="_blank" title="Facebook" bdt-tooltip="pos: right">
 													<i aria-hidden="true" class="fa-fw fab fa-facebook-f"></i> </a>
 
@@ -1403,14 +1426,16 @@
 													target="_blank" title="Whatsapp" bdt-tooltip="pos: right">
 													<i aria-hidden="true" class="fa-fw fab fa-whatsapp"></i> </a>
 
-												<a class="bdt-social-animate" href="https://www.instagram.com/oneinterior__?igsh=dTFydWlyYjgydW5u"
+												<a class="bdt-social-animate"
+													href="https://www.instagram.com/oneinterior__?igsh=dTFydWlyYjgydW5u"
 													target="_blank" title="Instagram" bdt-tooltip="pos: right">
 													<i aria-hidden="true" class="fa-fw fab fa-instagram"></i> </a>
-													<a class="qodef-e-social-icon-link" itemprop="url" href="mailto:oneinteriorservice@gmail.com"
-													target="_blank" title="Mail" bdt-tooltip="pos: right">
-														<span class="qodef-e-social-icon">
-															<i aria-hidden="true" class="far fa-envelope"></i> </span>
-													</a>
+												<a class="qodef-e-social-icon-link" itemprop="url"
+													href="mailto:oneinteriorservice@gmail.com" target="_blank"
+													title="Mail" bdt-tooltip="pos: right">
+													<span class="qodef-e-social-icon">
+														<i aria-hidden="true" class="far fa-envelope"></i> </span>
+												</a>
 											</div>
 
 											<div class="bdt-scroll-down-wrapper">
@@ -1545,8 +1570,7 @@
 												data-widget_type="qi_addons_for_elementor_button.default">
 												<div class="elementor-widget-container">
 													<a class="qodef-shortcode qodef-m  qodef-qi-button qodef-html--link qodef-layout--textual    qodef-icon--right qodef-hover--icon-move-horizontal-short   qodef-text-underline qodef-underline--left "
-														href="./services.html"
-														target="_self">
+														href="./services.html" target="_self">
 														<span class="qodef-m-text">All Services</span>
 														<span class="qodef-m-icon qodef--icon-color-set">
 															<span class="qodef-m-icon-inner">
@@ -1585,13 +1609,13 @@
 
 																<span class="elementor-icon-list-icon">
 																	<svg xmlns="http://www.w3.org/2000/svg"
-														viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-														<path
-															d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z" />
-													</svg>
+																		viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+																		<path
+																			d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z" />
+																	</svg>
 																</span>
-																<span
-																	class="elementor-icon-list-text" style="font-size: x-large;">Space Planning</span>
+																<span class="elementor-icon-list-text"
+																	style="font-size: x-large;">Space Planning</span>
 															</a>
 														</li>
 														<li class="elementor-icon-list-item">
@@ -1599,14 +1623,15 @@
 
 																<span class="elementor-icon-list-icon">
 																	<svg xmlns="http://www.w3.org/2000/svg"
-														viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-														<path
-															d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z" />
-													</svg>
+																		viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+																		<path
+																			d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z" />
+																	</svg>
 																</span>
-																<span class="elementor-icon-list-text" style="font-size: x-large;">3D Visualization</span>
+																<span class="elementor-icon-list-text"
+																	style="font-size: x-large;">3D Visualization</span>
 															</a>
-														
+
 													</ul>
 												</div>
 											</div>
@@ -1626,13 +1651,14 @@
 
 																<span class="elementor-icon-list-icon">
 																	<svg xmlns="http://www.w3.org/2000/svg"
-														viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-														<path
-															d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z" />
-													</svg>
+																		viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+																		<path
+																			d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z" />
+																	</svg>
 																</span>
-																<span class="elementor-icon-list-text" style="font-size: x-large;">Concept Development
-																	</span>
+																<span class="elementor-icon-list-text"
+																	style="font-size: x-large;">Concept Development
+																</span>
 															</a>
 														</li>
 														<li class="elementor-icon-list-item">
@@ -1640,16 +1666,17 @@
 
 																<span class="elementor-icon-list-icon">
 																	<svg xmlns="http://www.w3.org/2000/svg"
-														viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-														<path
-															d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z" />
-													</svg>
+																		viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+																		<path
+																			d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z" />
+																	</svg>
 																</span>
-																<span class="elementor-icon-list-text" style="font-size: x-large;">Project Management
-																	</span>
+																<span class="elementor-icon-list-text"
+																	style="font-size: x-large;">Project Management
+																</span>
 															</a>
 														</li>
-														
+
 													</ul>
 												</div>
 											</div>
@@ -1669,13 +1696,15 @@
 
 																<span class="elementor-icon-list-icon">
 																	<svg xmlns="http://www.w3.org/2000/svg"
-														viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-														<path
-															d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z" />
-													</svg>
+																		viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+																		<path
+																			d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z" />
+																	</svg>
 																</span>
-																<span class="elementor-icon-list-text" style="font-size: x-large;">Interior Design Consultation
-																	</span>
+																<span class="elementor-icon-list-text"
+																	style="font-size: x-large;">Interior Design
+																	Consultation
+																</span>
 															</a>
 														</li>
 														<li class="elementor-icon-list-item">
@@ -1683,16 +1712,17 @@
 
 																<span class="elementor-icon-list-icon">
 																	<svg xmlns="http://www.w3.org/2000/svg"
-														viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-														<path
-															d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z" />
-													</svg>
+																		viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+																		<path
+																			d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z" />
+																	</svg>
 																</span>
-																<span class="elementor-icon-list-text" style="font-size: x-large;">Design Development
-																	</span>
+																<span class="elementor-icon-list-text"
+																	style="font-size: x-large;">Design Development
+																</span>
 															</a>
 														</li>
-													
+
 													</ul>
 												</div>
 											</div>
@@ -1728,7 +1758,7 @@
 										</div>
 										<div class="qodef-m-content">
 											<h3 class="qodef-m-title">
-												Clients  </h3>
+												Clients </h3>
 										</div>
 									</div>
 								</div>
@@ -1809,8 +1839,8 @@
 										class="qodef-shortcode qodef-m  qodef-qi-text-marquee qodef-layout--default qodef-text-stroke-effect">
 										<div class="qodef-m-content">
 											<div class="qodef-m-text qodef-text--original">
-												<span
-													class="qodef-m-text-item elementor-repeater-item-8193270">ART & DECOR</span>
+												<span class="qodef-m-text-item elementor-repeater-item-8193270">ART &
+													DECOR</span>
 												<span class="qodef-m-text-item elementor-repeater-item-22a3254">Interior
 													Design</span>
 												<span class="qodef-m-text-item elementor-repeater-item-f105cca">Modern
@@ -1819,8 +1849,8 @@
 													outside of the box</span>
 											</div>
 											<div class="qodef-m-text qodef-text--copy">
-												<span
-													class="qodef-m-text-item elementor-repeater-item-8193270">ART & DECOR</span>
+												<span class="qodef-m-text-item elementor-repeater-item-8193270">ART &
+													DECOR</span>
 												<span class="qodef-m-text-item elementor-repeater-item-22a3254">Interior
 													Design</span>
 												<span class="qodef-m-text-item elementor-repeater-item-f105cca">Modern
@@ -3443,23 +3473,26 @@
 													Jayesh Prajapati </h4>
 												<p class="qodef-m-role">Interior Designer</p>
 												<div class="qodef-m-social-icons">
-													<a class="qodef-e-social-icon-link" itemprop="url" href="https://www.facebook.com/share/y3PYikLNPWXFdnvn/?mibextid=qi2Omg"
+													<a class="qodef-e-social-icon-link" itemprop="url"
+														href="https://www.facebook.com/share/y3PYikLNPWXFdnvn/?mibextid=qi2Omg"
 														target="_blank">
 														<span class="qodef-e-social-icon">
 															<i aria-hidden="true" class="fab fa-facebook-f"></i> </span>
 													</a>
-													<a class="qodef-e-social-icon-link" itemprop="url" href="https://www.linkedin.com/in/jayesh-prajapati-836b7b261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+													<a class="qodef-e-social-icon-link" itemprop="url"
+														href="https://www.linkedin.com/in/jayesh-prajapati-836b7b261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
 														target="_blank">
 														<span class="qodef-e-social-icon">
 															<i aria-hidden="true" class="fab fa-linkedin"></i> </span>
 													</a>
-													<a class="qodef-e-social-icon-link" itemprop="url" href="https://www.instagram.com/prajapati_jayesh_jd?igsh=MXJjeHg4MnB0Y2pibw%3D%3D"
+													<a class="qodef-e-social-icon-link" itemprop="url"
+														href="https://www.instagram.com/prajapati_jayesh_jd?igsh=MXJjeHg4MnB0Y2pibw%3D%3D"
 														target="_blank">
 														<span class="qodef-e-social-icon">
 															<i aria-hidden="true" class="fab fa-instagram"></i> </span>
 													</a>
-													<a class="qodef-e-social-icon-link" itemprop="url" href="mailto:prajapatij3000@gmail.com"
-														target="_blank">
+													<a class="qodef-e-social-icon-link" itemprop="url"
+														href="mailto:prajapatij3000@gmail.com" target="_blank">
 														<span class="qodef-e-social-icon">
 															<i aria-hidden="true" class="far fa-envelope"></i> </span>
 													</a>
@@ -3703,7 +3736,7 @@
 												<span class="elementor-icon-list-text">+91 9157870147</span>
 											</a>
 										</li>
-										
+
 									</ul>
 								</div>
 							</div>
@@ -3714,7 +3747,8 @@
 										<li class="elementor-icon-list-item">
 											<a href="https://maps.app.goo.gl/hRR2P5zarQ83oDjf8">
 
-												<span class="elementor-icon-list-text">230, Aristo aura, Opp. Sanghani skyz,
+												<span class="elementor-icon-list-text">230, Aristo aura, Opp. Sanghani
+													skyz,
 													Nr. Navrachna university, Bhayli, Vadodara - 391410</span>
 											</a>
 										</li>
@@ -3759,11 +3793,13 @@
 										<li class="elementor-icon-list-item">
 											<a href="https://maps.app.goo.gl/t86SNfYrtCr1hTJ68">
 
-												<span class="elementor-icon-list-text" style="font-size: large;">312, Gayatri Chambers, <br/> R.C. Dutt Road, Alkapuri, Vadodara - 390007</span>
+												<span class="elementor-icon-list-text" style="font-size: large;">312,
+													Gayatri Chambers, <br /> R.C. Dutt Road, Alkapuri,
+													Vadodara - 390007</span>
 											</a>
 										</li>
 										<li class="elementor-icon-list-item">
-											
+
 										</li>
 									</ul>
 								</div>
@@ -3780,19 +3816,20 @@
 									<h5 class="elementor-heading-title elementor-size-default">Cover City </h5>
 								</div>
 							</div>
-							
+
 							<div class="elementor-element elementor-element-f59fb43 elementor-align-left elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
 								data-id="f59fb43" data-element_type="widget" data-widget_type="icon-list.default">
 								<div class="elementor-widget-container">
 									<ul class="elementor-icon-list-items">
 										<li class="elementor-icon-list-item">
-											
 
-												<span style="font-size: larger;" class="elementor-icon-list-text"> > Vadodara
-													<br/>> Ahmedabad <br/>> Anand <br/>> Nadiad
-												</span>
-												
-											
+
+											<span style="font-size: larger;" class="elementor-icon-list-text"> >
+												Vadodara
+												<br />> Ahmedabad <br />> Anand <br />> Nadiad
+											</span>
+
+
 										</li>
 									</ul>
 								</div>
@@ -3807,7 +3844,8 @@
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<div class="site-info">
 
-				<p>Copyright ©2024 All rights reserved | ONR INTERIOR  BY <a style="color: red;" href="https://vrwebgenius.com/"> VR WEB GENIUS </a></p>
+				<p>Copyright ©2024 All rights reserved | ONR INTERIOR BY <a style="color: red;"
+						href="https://vrwebgenius.com/"> VR WEB GENIUS </a></p>
 			</div> <!-- .site-info -->
 		</footer> <!-- #colophon .site-footer -->
 	</div>
