@@ -1,6 +1,4 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^oneinterior.in [NC]
-RewriteRule ^(.*)$ http://www.oneinterior.in/$1 [L,R=301]
+
 
 RewriteEngine on
 
